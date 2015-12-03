@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3226096B1C054BA2007A25EE /* cursor1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3226096A1C054BA2007A25EE /* cursor1.png */; };
+		3236D7281C0C820500387E59 /* KMPPreferenceWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3236D7261C0C820500387E59 /* KMPPreferenceWindowController.m */; };
+		3236D7291C0C820500387E59 /* KMPPreferenceWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3236D7271C0C820500387E59 /* KMPPreferenceWindowController.xib */; };
+		3236D7321C0C890900387E59 /* cursor2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72A1C0C890900387E59 /* cursor2.png */; };
+		3236D7331C0C890900387E59 /* cursor2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72B1C0C890900387E59 /* cursor2@2x.png */; };
+		3236D7341C0C890900387E59 /* Option0.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72C1C0C890900387E59 /* Option0.png */; };
+		3236D7351C0C890900387E59 /* Option0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72D1C0C890900387E59 /* Option0@2x.png */; };
+		3236D7361C0C890900387E59 /* Option1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72E1C0C890900387E59 /* Option1.png */; };
+		3236D7371C0C890900387E59 /* Option1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D72F1C0C890900387E59 /* Option1@2x.png */; };
+		3236D7381C0C890900387E59 /* Option2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D7301C0C890900387E59 /* Option2.png */; };
+		3236D7391C0C890900387E59 /* Option2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3236D7311C0C890900387E59 /* Option2@2x.png */; };
+		32AA24DB1C0C030800B17775 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AA24DA1C0C030800B17775 /* JRSwizzle.m */; };
+		32AA24DE1C0C032D00B17775 /* NSCursor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 32AA24DD1C0C032D00B17775 /* NSCursor+Custom.m */; };
+		32AA24E01C0C0EC600B17775 /* cursor1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 32AA24DF1C0C0EC600B17775 /* cursor1@2x.png */; };
+		32ECC2B81C0410BD00E73D67 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ECC2B71C0410BD00E73D67 /* AppKit.framework */; };
+		32ECC2BA1C0410BD00E73D67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32ECC2B91C0410BD00E73D67 /* Foundation.framework */; };
+		32ECC2BE1C0410BD00E73D67 /* KMPCursor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 32ECC2BD1C0410BD00E73D67 /* KMPCursor.xcscheme */; };
+		32ECC2C11C0410BD00E73D67 /* KMPCursor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32ECC2C01C0410BD00E73D67 /* KMPCursor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3226096A1C054BA2007A25EE /* cursor1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor1.png; sourceTree = "<group>"; };
+		3236D7251C0C820500387E59 /* KMPPreferenceWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KMPPreferenceWindowController.h; sourceTree = "<group>"; };
+		3236D7261C0C820500387E59 /* KMPPreferenceWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KMPPreferenceWindowController.m; sourceTree = "<group>"; };
+		3236D7271C0C820500387E59 /* KMPPreferenceWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KMPPreferenceWindowController.xib; sourceTree = "<group>"; };
+		3236D72A1C0C890900387E59 /* cursor2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cursor2.png; sourceTree = "<group>"; };
+		3236D72B1C0C890900387E59 /* cursor2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cursor2@2x.png"; sourceTree = "<group>"; };
+		3236D72C1C0C890900387E59 /* Option0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Option0.png; sourceTree = "<group>"; };
+		3236D72D1C0C890900387E59 /* Option0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Option0@2x.png"; sourceTree = "<group>"; };
+		3236D72E1C0C890900387E59 /* Option1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Option1.png; sourceTree = "<group>"; };
+		3236D72F1C0C890900387E59 /* Option1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Option1@2x.png"; sourceTree = "<group>"; };
+		3236D7301C0C890900387E59 /* Option2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Option2.png; sourceTree = "<group>"; };
+		3236D7311C0C890900387E59 /* Option2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Option2@2x.png"; sourceTree = "<group>"; };
+		32AA24D91C0C030800B17775 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		32AA24DA1C0C030800B17775 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		32AA24DC1C0C032D00B17775 /* NSCursor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCursor+Custom.h"; sourceTree = "<group>"; };
+		32AA24DD1C0C032D00B17775 /* NSCursor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCursor+Custom.m"; sourceTree = "<group>"; };
+		32AA24DF1C0C0EC600B17775 /* cursor1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cursor1@2x.png"; sourceTree = "<group>"; };
+		32ECC2B41C0410BD00E73D67 /* KMPCursor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMPCursor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		32ECC2B71C0410BD00E73D67 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		32ECC2B91C0410BD00E73D67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32ECC2BD1C0410BD00E73D67 /* KMPCursor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = KMPCursor.xcscheme; path = KMPCursor.xcodeproj/xcshareddata/xcschemes/KMPCursor.xcscheme; sourceTree = SOURCE_ROOT; };
+		32ECC2BF1C0410BD00E73D67 /* KMPCursor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KMPCursor.h; sourceTree = "<group>"; };
+		32ECC2C01C0410BD00E73D67 /* KMPCursor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KMPCursor.m; sourceTree = "<group>"; };
+		32ECC2C51C0410BD00E73D67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32ECC2B21C0410BD00E73D67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ECC2B81C0410BD00E73D67 /* AppKit.framework in Frameworks */,
+				32ECC2BA1C0410BD00E73D67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32ECC2AB1C0410BD00E73D67 = {
+			isa = PBXGroup;
+			children = (
+				32ECC2BB1C0410BD00E73D67 /* KMPCursor */,
+				32ECC2B61C0410BD00E73D67 /* Frameworks */,
+				32ECC2B51C0410BD00E73D67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32ECC2B51C0410BD00E73D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32ECC2B41C0410BD00E73D67 /* KMPCursor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32ECC2B61C0410BD00E73D67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32ECC2B71C0410BD00E73D67 /* AppKit.framework */,
+				32ECC2B91C0410BD00E73D67 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32ECC2BB1C0410BD00E73D67 /* KMPCursor */ = {
+			isa = PBXGroup;
+			children = (
+				32AA24D91C0C030800B17775 /* JRSwizzle.h */,
+				32AA24DA1C0C030800B17775 /* JRSwizzle.m */,
+				32ECC2BF1C0410BD00E73D67 /* KMPCursor.h */,
+				32ECC2C01C0410BD00E73D67 /* KMPCursor.m */,
+				32AA24DC1C0C032D00B17775 /* NSCursor+Custom.h */,
+				32AA24DD1C0C032D00B17775 /* NSCursor+Custom.m */,
+				3236D7251C0C820500387E59 /* KMPPreferenceWindowController.h */,
+				3236D7261C0C820500387E59 /* KMPPreferenceWindowController.m */,
+				3236D7271C0C820500387E59 /* KMPPreferenceWindowController.xib */,
+				32ECC2C51C0410BD00E73D67 /* Info.plist */,
+				32ECC2BC1C0410BD00E73D67 /* Supporting Files */,
+			);
+			path = KMPCursor;
+			sourceTree = "<group>";
+		};
+		32ECC2BC1C0410BD00E73D67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3226096A1C054BA2007A25EE /* cursor1.png */,
+				32AA24DF1C0C0EC600B17775 /* cursor1@2x.png */,
+				3236D72A1C0C890900387E59 /* cursor2.png */,
+				3236D72B1C0C890900387E59 /* cursor2@2x.png */,
+				3236D72C1C0C890900387E59 /* Option0.png */,
+				3236D72D1C0C890900387E59 /* Option0@2x.png */,
+				3236D72E1C0C890900387E59 /* Option1.png */,
+				3236D72F1C0C890900387E59 /* Option1@2x.png */,
+				3236D7301C0C890900387E59 /* Option2.png */,
+				3236D7311C0C890900387E59 /* Option2@2x.png */,
+				32ECC2BD1C0410BD00E73D67 /* KMPCursor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32ECC2B31C0410BD00E73D67 /* KMPCursor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32ECC2C81C0410BD00E73D67 /* Build configuration list for PBXNativeTarget "KMPCursor" */;
+			buildPhases = (
+				32ECC2B01C0410BD00E73D67 /* Sources */,
+				32ECC2B11C0410BD00E73D67 /* Resources */,
+				32ECC2B21C0410BD00E73D67 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KMPCursor;
+			productName = KMPCursor;
+			productReference = 32ECC2B41C0410BD00E73D67 /* KMPCursor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32ECC2AC1C0410BD00E73D67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = KumaPower;
+				TargetAttributes = {
+					32ECC2B31C0410BD00E73D67 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 32ECC2AF1C0410BD00E73D67 /* Build configuration list for PBXProject "KMPCursor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32ECC2AB1C0410BD00E73D67;
+			productRefGroup = 32ECC2B51C0410BD00E73D67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32ECC2B31C0410BD00E73D67 /* KMPCursor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32ECC2B11C0410BD00E73D67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32ECC2BE1C0410BD00E73D67 /* KMPCursor.xcscheme in Resources */,
+				3236D7341C0C890900387E59 /* Option0.png in Resources */,
+				3236D7391C0C890900387E59 /* Option2@2x.png in Resources */,
+				3236D7361C0C890900387E59 /* Option1.png in Resources */,
+				3236D7331C0C890900387E59 /* cursor2@2x.png in Resources */,
+				32AA24E01C0C0EC600B17775 /* cursor1@2x.png in Resources */,
+				3236D7371C0C890900387E59 /* Option1@2x.png in Resources */,
+				3236D7351C0C890900387E59 /* Option0@2x.png in Resources */,
+				3236D7381C0C890900387E59 /* Option2.png in Resources */,
+				3236D7321C0C890900387E59 /* cursor2.png in Resources */,
+				3226096B1C054BA2007A25EE /* cursor1.png in Resources */,
+				3236D7291C0C820500387E59 /* KMPPreferenceWindowController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32ECC2B01C0410BD00E73D67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3236D7281C0C820500387E59 /* KMPPreferenceWindowController.m in Sources */,
+				32ECC2C11C0410BD00E73D67 /* KMPCursor.m in Sources */,
+				32AA24DE1C0C032D00B17775 /* NSCursor+Custom.m in Sources */,
+				32AA24DB1C0C030800B17775 /* JRSwizzle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		32ECC2C61C0410BD00E73D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		32ECC2C71C0410BD00E73D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		32ECC2C91C0410BD00E73D67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = KMPCursor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = uh.kumapower.KMPCursor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		32ECC2CA1C0410BD00E73D67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = KMPCursor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = uh.kumapower.KMPCursor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32ECC2AF1C0410BD00E73D67 /* Build configuration list for PBXProject "KMPCursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ECC2C61C0410BD00E73D67 /* Debug */,
+				32ECC2C71C0410BD00E73D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32ECC2C81C0410BD00E73D67 /* Build configuration list for PBXNativeTarget "KMPCursor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32ECC2C91C0410BD00E73D67 /* Debug */,
+				32ECC2CA1C0410BD00E73D67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32ECC2AC1C0410BD00E73D67 /* Project object */;
+}
