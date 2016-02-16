@@ -33,7 +33,7 @@
     if (!cursor2) {
         NSPoint hotSpot = self.hotSpot;
         NSBundle *bundle = [NSBundle bundleWithIdentifier:@"uh.kumapower.KMPCursor"];
-        cursor2 = [[NSCursor alloc] initWithImage:[bundle imageForResource:@"cursor2"] hotSpot:NSMakePoint(hotSpot.x + 2, hotSpot.y)];
+        cursor2 = [[NSCursor alloc] initWithImage:[bundle imageForResource:@"cursor3"] hotSpot:NSMakePoint(hotSpot.x + 2, hotSpot.y)];
         objc_setAssociatedObject(self, @selector(kmp_getCursor2), cursor2, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
     }
     return cursor2;
@@ -52,7 +52,7 @@
                 case KMPCursorType_white:
                     [[self kmp_getCursor1] set];
                     break;
-                case KMPCursorType_texture:
+                case KMPCursorType_new:
                     [[self kmp_getCursor2] set];
                     break;
                 default:

@@ -38,7 +38,7 @@
         case KMPCursorType_white:
             [self.option1Button setState:NSOnState];
             break;
-        case KMPCursorType_texture:
+        case KMPCursorType_new:
             [self.option2Button setState:NSOnState];
             break;
         default:
@@ -65,8 +65,8 @@
 - (IBAction)option2Click:(NSButton *)sender
 {
     if (self.delegate && [self.delegate respondsToSelector:@selector(preferenceWindowDidSelectCursor:)]) {
-        [self setCursorType:KMPCursorType_texture];
-        [self.delegate preferenceWindowDidSelectCursor:KMPCursorType_texture];
+        [self setCursorType:KMPCursorType_new];
+        [self.delegate preferenceWindowDidSelectCursor:KMPCursorType_new];
     }
 }
 
