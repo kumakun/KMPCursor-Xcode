@@ -10,8 +10,8 @@
 
 typedef NS_ENUM(NSUInteger, KMPCursorType) {
     KMPCursorType_origin,
-    KMPCursorType_1,
-    KMPCursorType_2,
+    KMPCursorType_white,
+    KMPCursorType_texture,
 };
 
 @protocol KMPPreferenceWindowDelegate <NSObject>

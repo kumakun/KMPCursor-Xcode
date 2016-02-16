@@ -83,7 +83,7 @@ NSString * const kUserDefaultsKeyCursorType = @"KMPCursorType";
     NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
     if (menuItem) {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Switch Cursor" action:@selector(switchCursor:) keyEquivalent:@""];
+        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"Switch Cursor" action:@selector(showSwitchCursorWindow:) keyEquivalent:@""];
         [actionMenuItem setTarget:self];
         [[menuItem submenu] addItem:actionMenuItem];
     }
@@ -98,12 +98,12 @@ NSString * const kUserDefaultsKeyCursorType = @"KMPCursorType";
     return _preferenceWindow;
 }
 
-- (void)switchCursor:(NSMenuItem *)sender
+- (void)showSwitchCursorWindow:(NSMenuItem *)sender
 {
-    [self.preferenceWindow setCursorType:self.cursorType];
     [self.preferenceWindow.window makeKeyAndOrderFront:self];
     [self.preferenceWindow.window center];
     sender.state = NSOffState;
+    [self.preferenceWindow setCursorType:self.cursorType];
 }
 
 - (void)dealloc

@@ -49,10 +49,10 @@
                 case KMPCursorType_origin:
                     [self kmp_set];
                     break;
-                case KMPCursorType_1:
+                case KMPCursorType_white:
                     [[self kmp_getCursor1] set];
                     break;
-                case KMPCursorType_2:
+                case KMPCursorType_texture:
                     [[self kmp_getCursor2] set];
                     break;
                 default:
